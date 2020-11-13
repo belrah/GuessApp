@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessApp</title>
+    <!-- <link rel="stylesheet" href="materialize/css/style.css"> -->
+    <link rel="stylesheet" href="materialize/css/font/material-icons.css">
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="materialize/css/guess.css">
+    <!-------font awesome link--->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-------google font link--->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <!-------animate.css link--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div class="container center">
+        <h2 class="center">
+            A Guessing Game</h2>
+        <p class="center red-text">
+            Type a word to get the third letter
+        </p>
+
+        <input type="text" id="getThirdLetter" class="purple-text darken-4 white" style="font-weight: bolder;" />
+        <div class=".">
+            <button onclick="thirdString();" class=" btn">check now</button>
+        </div>
+        <p id="value"></p>
+
+        <!---footer-section-->
+        <footer class="center">
+
+            <small class="footer-small mt-auto">
+                <h5 class="animate__animated animate__fadeInRight animate__delay-1s 
+       ">Copyright <span style="color:red;">&copy;</span> Kalu Mercy for <span style="color:red; font-weight:bolder"> Pearls Africa</span></h5>
+            </small>
+            <div class="animate__animated animate__fadeInLeft animate__delay-2s social center">
+                <a class="social-a " href="https://github.com/belrah">
+                    <i class="fab fa-github-square size white-text"></i>
+                </a>
+                <a class="social-a" href="https://twitter.com/iambelrah">
+                    <i class="fab fa-twitter-square size white-text"></i>
+                </a>
+                <a class="social-a" href="https://medium.com/@belrah">
+                    <i class="fab fa-medium-m size white-text"></i>
+                </a>
+                <a class="social-a" href="https://github.com/belrah"><i class="fab fa-linkedin size white-text"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="materialize/js/jquery.js "></script>
+    <script src="materialize/js/materialize.js "></script>
+    <script src="materialize/js/materialize.min.js "></script>
+    <script src="materialize/js/guess.js "></script>
+
+
+</body>
+
+</html>

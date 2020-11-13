@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Yatra One', cursive;
+    width: 100%;
+    color: aliceblue;
+    background-color: midnightblue;
+}
+
+.social {}
+
+.container {
+    margin-top: 8em;
+}
+
+#getThirdLetter {
+    border-radius: 10px;
+    width: 400px;
+    padding-left: 10px;
+    margin-bottom: 1.5em;
+}
+
+p {
+    margin-bottom: 1.5em;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.btn {
+    margin-bottom: 2em;
+    font-weight: bolder;
+    font-family: 'Yatra One', cursive;
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: midnightblue;
+}
+
+.btn:hover {
+    background-color: red;
+    color: aliceblue;
+}
+
+.size {
+    font-size: 20px;
+}
+
+@media screen and (min-width:250px) {
+    #getThirdLetter {
+        width: 200px;
+        margin-bottom: 1em;
+    }
+    p {
+        margin-bottom: 1.5em;
+        font-size: 16px;
+    }
+}
